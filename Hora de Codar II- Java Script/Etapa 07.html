@@ -13,36 +13,39 @@
      var valor4 =  parseInt(prompt("Digite o quarto numero:"))
      var valor5 =  parseInt(prompt("Digite o quinto numero:"))
      var valor6 =  parseInt(prompt("Digite o sexto numero:"))
-	
+      var soma = 0
+
+
      if(valor1 < 72) {
-      	soma = soma + valor1
+      	soma += valor1
       }
     
 
-      if(valor2 < 72) {
-      	soma = soma + valor2
+      if(valor2 <  72) {
+      	soma += valor2
       }
      
 
-      if(valor3 < 72){
-      soma = soma + valor3
+      if(valor3 <  72){
+      soma += valor3 
       }
 
-      if(valor4 < 72){
-      soma = soma + valor4
+      if(valor4 <  72){
+      soma += valor4
       }
 
-      if(valor5 < 72){
-      soma = soma + valor5
+      if(valor5 <  72){
+      soma += valor5
     }
       
       if(valor6 < 72){
-      soma = soma + valor6
+        soma += valor6
     }
     
-    alert("A soma dos numeros foi: "+ soma )
-    alert("os números informados foram: "+ valor1+" " + valor2+" "+ valor3+" "+ valor4+" "+ valor5+ " "+valor6) 
-    
+ /*    alert("os números informados foram: "+ valor1+" " + valor2+" "+ valor3+" "+ valor4+" "+ valor5+ " "+valor6)  */
+    alert(`os números informados foram: ${valor1}, ${valor2}, ${valor3} ,${valor4}, ${valor5}, ${valor6}`) 
+    alert(`A soma dos numeros foi: ${soma}`)
+
     
     </script>
 </head>
